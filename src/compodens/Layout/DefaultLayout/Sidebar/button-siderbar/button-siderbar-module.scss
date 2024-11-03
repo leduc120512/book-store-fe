@@ -1,0 +1,37 @@
+.button-group {
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  width: 20%;
+}
+.LIST {
+  display: flex;
+}
+.button-list {
+  width: 136px;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+.xoagachchan {
+  text-decoration: none;
+}
+.item-book {
+  width: 100%;
+}
+.button-list2 {
+  display: flex;
+  font-size: 1.5rem;
+  width: 276px;
+  margin-top: 10px;
+  margin-left: -70px;
+}
+.button1 {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}

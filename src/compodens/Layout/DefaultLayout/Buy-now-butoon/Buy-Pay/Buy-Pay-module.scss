@@ -1,0 +1,442 @@
+.NowContainer {
+  display: flex;
+  flex-direction: column;
+}
+.NowAddressDetailt {
+}
+.NowHeader {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: var(--primary);
+
+  background-color: #e85a4c;
+}
+.yyy {
+  display: flex;
+  align-items: center;
+}
+.NowHeaderTitle {
+  font-size: 1.8rem;
+}
+.NowAddressContainer {
+  display: flex;
+  flex-direction: column;
+}
+.NowAddressTitle {
+  margin-left: 20px;
+  font-weight: 550px;
+}
+.NowAddressTitle11 {
+  display: flex;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.NowProductItemDetails {
+  display: flex;
+
+  align-items: center;
+}
+.NowProductContainer1 {
+  margin-left: 20px;
+}
+.NowProductItemDetails {
+}
+.NowProductPriceContainer {
+  float: right;
+}
+.NowProductPriceTitle {
+  margin-right: 66px;
+}
+.NowMessageAndShipping {
+  display: flex;
+  flex-direction: column !important;
+}
+.NowMessageTitle {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+.NowMessageTitle-input {
+  width: 250px;
+  height: 40px;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border: none;
+  font-size: 1.4rem;
+  &:focus {
+    outline: none; // Loại bỏ đường viền mặc định khi focus
+    border-color: transparent; // Đặt màu border là trong suốt
+  }
+}
+.NowProductQuantityTitle {
+  margin-right: 83px;
+  font-size: 1.5rem;
+}
+.ShippingMethodContainer {
+}
+.NowShippingMethodTitle {
+  margin-right: 95px;
+}
+.NowShippingMethod {
+  margin-right: 161px;
+  font-size: 1.5rem;
+}
+
+.NowShippingCost {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.NowShippingGuaranteeContainer {
+  margin-left: 621px;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowShippingFastOptionTitle {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowShippingFastOption {
+  margin-top: 30px;
+}
+.NowShippingFastOptionGuarantee {
+  font-size: 1.3rem;
+  color: #5cdbcb;
+  margin-left: 10px;
+}
+.NowShippingInspection {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+.NowShippin1g {
+  margin-left: 20px;
+}
+.NowShippingFastContainer {
+  margin-left: 396px;
+  margin-top: -20px;
+}
+.NowShippingGuaranteeDate,
+.NowShippingGuaranteeVoucher {
+  margin-bottom: 0 !important;
+}
+.NowShippingGuaranteeVoucher {
+  margin-top: -0px;
+}
+.NowShippin11g {
+  display: flex;
+  justify-content: space-between;
+}
+.NowShippin11g {
+  display: flex;
+}
+.NowVoucherContainer {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.NowMessageAndShipping {
+  margin-top: 10px;
+  background-color: #fff; /* Nền trắng */
+  padding: 20px; /* Khoảng cách bên trong */
+  border: 1px solid #ddd; /* Viền xám nhạt để phân biệt rõ các góc */
+  border-radius: 8px; /* Bo tròn nhẹ ở các góc */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.NowVoucherTitle {
+  margin-right: 50px;
+}
+.NowVoucherSelect {
+  margin-right: 20px;
+  color: rgba(0, 0, 255, 0.7);
+  font-weight: 600;
+}
+.NowProductTypeTitle,
+.NowProductType {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowProductDescription,
+.NowProductReturnPolicy {
+  margin: 0 !important;
+}
+.NowProductReturnPolicy {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowProductTypeContainer {
+  margin-left: 73px;
+  margin-top: -17px;
+}
+.NowProductPrice {
+  margin-left: 70px;
+}
+.NowProductTotal {
+  margin-left: 179px;
+}
+.NowProductQuantity {
+  margin-left: 75px;
+}
+.NowProductTotal {
+}
+.NowProductPriceContainer {
+  margin-top: -17px;
+}
+.NowProductDescriptionContainer {
+  margin-left: 10px;
+}
+.NowsProductItemDetaiimg {
+  width: 330px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.NowPsdfsdroductType {
+  width: 150px;
+}
+.NowProductssType {
+  width: 300px;
+}
+.NowProductItemDetaiimg {
+  width: 60px;
+  height: 60px;
+}
+.table_lisst_item {
+  border-bottom: 1px solid #dadada;
+  tr {
+    margin-top: 10px;
+  }
+}
+.NowChatContainer {
+  /* From Uiverse.io by Gaurang7717 */
+  .Btn {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+
+  .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #00d757;
+    background: #00d757;
+    background: #00d757;
+    background: #00d757;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    z-index: -1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+
+  .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+
+  .Btn:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+  }
+}
+.NowMall,
+.NowFavorite {
+  font-size: 1.3rem;
+  color: white;
+  background-color: var(--primary);
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.NowChatText {
+  font-size: 1.4rem;
+  font-size: 500;
+}
+.NowProductQuantity {
+}
+.NowProductTotal {
+  margin-left: 170px;
+  font-weight: 600px;
+}
+
+.NowProductQuantityTitle {
+  margin-right: 119px;
+}
+.NowProductQuantity .NowProductContainer {
+  margin-top: 7px;
+  background-color: black;
+}
+.NowProductPriceTitle,
+.NowProductQuantityTitle,
+.NowProductTotalTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowProductTitle {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 600;
+}
+.NowProductDetails,
+.NowProductInfo,
+.NowProductTitle {
+}
+.NowAddressHeader,
+.NowAddressTitle11 {
+}
+.NowAddressHeader {
+  display: flex;
+  flex-direction: column;
+}
+.NowName,
+.NowPhone {
+  font-size: 1.6rem;
+  margin-left: 10px;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 550;
+}
+.NowAddressDetailt {
+  margin-left: 10px;
+}
+.NowHeaderTitle {
+  font-size: 2.3rem;
+  font-weight: 550;
+}
+.NowStreet,
+.NowWard,
+.NowDistrict,
+.NowCity {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: black;
+}
+.NowAddressTitle {
+  font-size: 2rem;
+  color: var(--primary);
+}
+.NowDefaultText {
+  margin-left: 20px;
+}
+.NowAddressTitle {
+}
+.NowAddressDetails {
+}
+.NowName {
+}
+.NowPhone {
+}
+.NowStreet {
+}
+.NowWard {
+}
+.NowDistrict {
+}
+.NowCity {
+}
+.NowDefault {
+}
+.NowDefaultText {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  font-size: 1.4rem;
+}
+.NowChange {
+  font-size: 1.5rem;
+  color: brown;
+  margin-left: 15px;
+}
+.NowChangeText {
+  margin-left: 35px;
+}
+.NowProductContainer {
+}
+.NowProductHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.NowProductTitleContainer {
+}
+.NowProductTitle {
+}
+.NowProductInfo {
+  display: flex;
+}
+.NowProductPriceTitle {
+}
+.NowProductQuantityTitle {
+}
+.qqq {
+  display: flex;
+  flex-direction: column;
+}
+.NowAddressContainer {
+  background-color: #fff; /* Nền trắng */
+  padding: 20px; /* Khoảng cách bên trong */
+  border: 1px solid #ddd; /* Viền xám nhạt để phân biệt rõ các góc */
+  border-radius: 8px; /* Bo tròn nhẹ ở các góc */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.NowTotalContainer_ {
+  display: flex;
+  align-items: center;
+}
+.NowTotaddlContainer {
+  width: 150px;
+  height: 50px;
+}
+.NowTotalContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.NowTotalDetails {
+  margin-right: 99px;
+}
+.NowProductTotalTitle {
+  margin-right: 24px !important;
+}
+.NowTotalTitle,
+.NowTotalQuantity,
+.NowTotalProductTitle {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.4);
+  margin-right: 5px;
+  font-weight: 600 !important;
+}
+.NowTotalQuantity {
+}
+.NowTotalProductTitle {
+}
+.NowTotalAmount {
+  font-size: 1.7rem;
+  color: var(--primary);
+  margin-right: 20px;
+  font-weight: 700 !important;
+}

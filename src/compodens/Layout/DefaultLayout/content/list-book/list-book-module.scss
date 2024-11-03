@@ -1,0 +1,67 @@
+.book-list- {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ljhlkjhlkjhdslkjf {
+  position: relative;
+  margin: 10px;
+  display: flex;
+  .badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(
+      to bottom,
+      #ff7a00,
+      #ff3b00
+    ); /* Hiệu ứng màu cam chuyển sắc */
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      50% 85%,
+      0 100%
+    ); /* Tạo hiệu ứng lõm vào ở dưới */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+.list-item {
+  width: 150px;
+  height: 190px;
+  display: block; /* Đảm bảo ảnh không bị co hẹp */
+}
+
+.leader_sold {
+  position: absolute;
+  bottom: 5px; /* Đặt nó gần dưới cùng của ảnh */
+  left: 10px; /* Đặt nó cách trái một chút */
+  width: auto; /* Tự động điều chỉnh chiều rộng */
+  height: auto; /* Tự động điều chỉnh chiều cao */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 132px; /* Thêm khoảng đệm để thông tin dễ đọc hơn */
+}
+
+.leader_sold p {
+  color: white;
+  font-size: 13px;
+  margin: 0; /* Đảm bảo không có khoảng cách dư thừa */
+}
